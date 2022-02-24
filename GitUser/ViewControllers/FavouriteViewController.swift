@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FavouriteViewController.swift
 //  GitUser
 //
 //  Created by Mikhail Kolkov on 23.02.2022.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FavouriteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .systemPink
     }
-
-
 }
-

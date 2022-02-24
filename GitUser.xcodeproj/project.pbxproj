@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		35D9837027C647D0007C99AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9836F27C647D0007C99AD /* AppDelegate.swift */; };
 		35D9837227C647D0007C99AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9837127C647D0007C99AD /* SceneDelegate.swift */; };
-		35D9837427C647D0007C99AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9837327C647D0007C99AD /* ViewController.swift */; };
-		35D9837727C647D0007C99AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D9837527C647D0007C99AD /* Main.storyboard */; };
 		35D9837927C647D1007C99AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D9837827C647D1007C99AD /* Assets.xcassets */; };
 		35D9837C27C647D1007C99AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D9837A27C647D1007C99AD /* LaunchScreen.storyboard */; };
+		35D9838427C64EBB007C99AD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838327C64EBB007C99AD /* SearchViewController.swift */; };
+		35D9838627C64EEF007C99AD /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838527C64EEF007C99AD /* FavouriteViewController.swift */; };
+		35D9838827C65348007C99AD /* GUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838727C65348007C99AD /* GUButton.swift */; };
+		35D9838A27C6561B007C99AD /* GUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838927C6561B007C99AD /* GUTextField.swift */; };
+		35D9838D27C697EE007C99AD /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838C27C697EE007C99AD /* FollowerListViewController.swift */; };
+		35D9838F27C69CA4007C99AD /* GUTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9838E27C69CA4007C99AD /* GUTitleLabel.swift */; };
+		35D9839127C69E12007C99AD /* GUBodylabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839027C69E12007C99AD /* GUBodylabel.swift */; };
+		35D9839327C69EC6007C99AD /* GUAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839227C69EC6007C99AD /* GUAlertViewController.swift */; };
+		35D9839527C6A955007C99AD /* UIViewController+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839427C6A955007C99AD /* UIViewController+EXT.swift */; };
+		35D9839827C77F80007C99AD /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839727C77F80007C99AD /* Follower.swift */; };
+		35D9839A27C78039007C99AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839927C78039007C99AD /* User.swift */; };
+		35D9839E27C7834B007C99AD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9839D27C7834B007C99AD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35D9836C27C647D0007C99AD /* GitUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D9836F27C647D0007C99AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35D9837127C647D0007C99AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35D9837327C647D0007C99AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		35D9837627C647D0007C99AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35D9837827C647D1007C99AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D9837B27C647D1007C99AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D9837D27C647D1007C99AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D9838327C64EBB007C99AD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		35D9838527C64EEF007C99AD /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		35D9838727C65348007C99AD /* GUButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUButton.swift; sourceTree = "<group>"; };
+		35D9838927C6561B007C99AD /* GUTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUTextField.swift; sourceTree = "<group>"; };
+		35D9838C27C697EE007C99AD /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		35D9838E27C69CA4007C99AD /* GUTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUTitleLabel.swift; sourceTree = "<group>"; };
+		35D9839027C69E12007C99AD /* GUBodylabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUBodylabel.swift; sourceTree = "<group>"; };
+		35D9839227C69EC6007C99AD /* GUAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUAlertViewController.swift; sourceTree = "<group>"; };
+		35D9839427C6A955007C99AD /* UIViewController+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+EXT.swift"; sourceTree = "<group>"; };
+		35D9839727C77F80007C99AD /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		35D9839927C78039007C99AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		35D9839D27C7834B007C99AD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		35D9836E27C647D0007C99AD /* GitUser */ = {
 			isa = PBXGroup;
 			children = (
+				35D9839C27C78341007C99AD /* Network */,
+				35D9839B27C78056007C99AD /* ViewControllers */,
+				35D9839627C77F71007C99AD /* Model */,
+				35D9838B27C657B5007C99AD /* Templates */,
 				35D9836F27C647D0007C99AD /* AppDelegate.swift */,
 				35D9837127C647D0007C99AD /* SceneDelegate.swift */,
-				35D9837327C647D0007C99AD /* ViewController.swift */,
-				35D9837527C647D0007C99AD /* Main.storyboard */,
+				35D9839427C6A955007C99AD /* UIViewController+EXT.swift */,
 				35D9837827C647D1007C99AD /* Assets.xcassets */,
 				35D9837A27C647D1007C99AD /* LaunchScreen.storyboard */,
 				35D9837D27C647D1007C99AD /* Info.plist */,
 			);
 			path = GitUser;
+			sourceTree = "<group>";
+		};
+		35D9838B27C657B5007C99AD /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				35D9838927C6561B007C99AD /* GUTextField.swift */,
+				35D9838727C65348007C99AD /* GUButton.swift */,
+				35D9838E27C69CA4007C99AD /* GUTitleLabel.swift */,
+				35D9839027C69E12007C99AD /* GUBodylabel.swift */,
+				35D9839227C69EC6007C99AD /* GUAlertViewController.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		35D9839627C77F71007C99AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35D9839727C77F80007C99AD /* Follower.swift */,
+				35D9839927C78039007C99AD /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35D9839B27C78056007C99AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35D9838527C64EEF007C99AD /* FavouriteViewController.swift */,
+				35D9838C27C697EE007C99AD /* FollowerListViewController.swift */,
+				35D9838327C64EBB007C99AD /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		35D9839C27C78341007C99AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				35D9839D27C7834B007C99AD /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +189,6 @@
 			files = (
 				35D9837C27C647D1007C99AD /* LaunchScreen.storyboard in Resources */,
 				35D9837927C647D1007C99AD /* Assets.xcassets in Resources */,
-				35D9837727C647D0007C99AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +199,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D9837427C647D0007C99AD /* ViewController.swift in Sources */,
+				35D9839A27C78039007C99AD /* User.swift in Sources */,
+				35D9838627C64EEF007C99AD /* FavouriteViewController.swift in Sources */,
+				35D9839327C69EC6007C99AD /* GUAlertViewController.swift in Sources */,
+				35D9838427C64EBB007C99AD /* SearchViewController.swift in Sources */,
 				35D9837027C647D0007C99AD /* AppDelegate.swift in Sources */,
+				35D9838F27C69CA4007C99AD /* GUTitleLabel.swift in Sources */,
+				35D9838D27C697EE007C99AD /* FollowerListViewController.swift in Sources */,
+				35D9839127C69E12007C99AD /* GUBodylabel.swift in Sources */,
+				35D9839827C77F80007C99AD /* Follower.swift in Sources */,
+				35D9839527C6A955007C99AD /* UIViewController+EXT.swift in Sources */,
+				35D9839E27C7834B007C99AD /* NetworkManager.swift in Sources */,
 				35D9837227C647D0007C99AD /* SceneDelegate.swift in Sources */,
+				35D9838827C65348007C99AD /* GUButton.swift in Sources */,
+				35D9838A27C6561B007C99AD /* GUTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35D9837527C647D0007C99AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35D9837627C647D0007C99AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35D9837A27C647D1007C99AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +358,7 @@
 				INFOPLIST_FILE = GitUser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -307,7 +371,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +387,7 @@
 				INFOPLIST_FILE = GitUser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -336,7 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
