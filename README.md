@@ -1,4 +1,4 @@
-# GitUserTestTask
+# GitUser
 
 Pet project where you can see GitHub user's followers.
 
